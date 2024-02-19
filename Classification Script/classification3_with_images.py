@@ -80,6 +80,9 @@ def update_frame():
 def start_stop_inference():
     """
     Toggles the start_inference flag and updates the button text accordingly.
+    
+    This function is responsible for toggling the start_inference flag, which controls whether the inference process should start or stop. 
+    When the flag is toggled, the button text is updated accordingly to reflect the current state of the inference process.
     """
     global start_inference, predictions
     start_inference = not start_inference
@@ -100,6 +103,17 @@ if not os.path.isfile(model_path):
 net = cv2.dnn.readNetFromONNX(model_path)
 
 # GUI setup
+'''
+GUI Setup
+Describe the overall setup of the graphical user interface.
+Discuss each component of the GUI, including the video label, arrow label, and the start/stop button.
+Note/Section: Loading Arrow Images
+Explain how the arrow images are loaded and potentially resized for display.
+Note/Section: Creating Labels for Arrow Images
+Discuss the creation of labels for displaying the arrow images on the GUI.
+Note/Section: Releasing Resources
+Describe the cleanup process, including releasing the webcam and closing the GUI windows.
+'''
 root = tk.Tk()
 root.title("Waste Classification")
 root.configure(bg='#1E1E1E')  # Set the background color
