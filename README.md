@@ -53,7 +53,7 @@ sudo apt-get install python3-pip
 pip3 install opencv-python
 ```
 ### Software Installation
-Navigate to the directory containing 'classification3_with_images.py' and run the following command:
+Navigate to 'Classification Script' directory containing 'classification3_with_images.py' and run the following command:
 ```bash
 python3 classification3_with_images.py
 ```
