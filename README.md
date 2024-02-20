@@ -11,7 +11,8 @@ Welcome to the repository for BinBot, one of two repositories submitted for the 
 
 ## About BinBot
 
-BinBot is an innovative solution designed to classify waste materials efficiently, promoting environmental sustainability. Utilizing machine learning and computer vision, BinBot can identify different types of waste and suggest the correct bin for disposal. This project aims to tackle *Goal 12: Responsible Consumption and Production* and to streamline waste management as well as support recycling efforts. 
+BinBot is an innovative solution designed to classify waste materials efficiently, promoting environmental sustainability. Utilizing machine learning and computer vision, BinBot can identify different types of waste and suggest the correct bin for disposal. This project aims to tackle *Goal 12: Responsible Consumption and Production* and to streamline waste management as well as support recycling efforts. <br>
+The model is derived from pretrained DenseNet-121 model, a balanced solution between performance and accuracy. During training, the model is able to reach more than 90% in both validation and training accuracy.
 
 ## Requirements
 
@@ -53,7 +54,8 @@ sudo apt-get install python3-pip
 pip3 install opencv-python
 ```
 ### Software Installation
-Navigate to 'Classification Script' directory containing 'classification3_with_images.py' and run the following command:
+Navigate to 'Classification Script' directory containing 'classification3_with_images.py' and run the following command: <br>
+Make sure 'model.onnx' is located on the same directory with the script.
 ```bash
 python3 classification3_with_images.py
 ```
