@@ -47,7 +47,7 @@ b3 count:  10822
 
 Follow the detailed instructions for setting up the Orange Pi 3B [here](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_3B#Introduction_to_the_use_of_the_development_board).
 
-### Software Installation
+### Installing Prerequisites
 
 On the Orange Pi, open a terminal and execute the following commands:
 
@@ -67,10 +67,7 @@ sudo apt-get install python3-pip
 # Install OpenCV for Python
 pip3 install opencv-python
 ```
-
-
-
-### Software Installation
+### Running the Script
 Navigate to 'Classification Script' directory containing 'classification3_with_images.py' and run the following command: <br>
 Make sure 'model.onnx' is located on the same directory with the script.
 ```bash
