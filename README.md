@@ -22,6 +22,20 @@ To run BinBot, the following hardware components are required:
 - Webcam compatible with Orange Pi
 - Monitor with HDMI input
 
+## Dataset Obtained
+### Overview
+![image](https://github.com/muhammadzaky09/BinBot-Waste-Classification-Model/assets/88239996/0ca8c14b-4b13-436f-99d1-afc3e5a76687)
+![image](https://github.com/muhammadzaky09/BinBot-Waste-Classification-Model/assets/88239996/2afa7253-df0f-47d7-8c78-f1689018f35a)
+```bash
+organic count:  13966
+inorganic count:  11111
+b3 count:  10822
+```
+### Links
+- Garbage Classification - Kaggle https://www.kaggle.com/datasets/mostafaabla/garbage-classification
+- TrashBox - GitHub https://github.com/nikhilvenkatkumsetty/TrashBox
+- Waste Pictures (Medicine Waste) - Kaggle https://www.kaggle.com/datasets/wangziang/waste-pictures
+
 ## Tutorial
 
 ### Setting Up the Hardware
@@ -53,6 +67,9 @@ sudo apt-get install python3-pip
 # Install OpenCV for Python
 pip3 install opencv-python
 ```
+
+
+
 ### Software Installation
 Navigate to 'Classification Script' directory containing 'classification3_with_images.py' and run the following command: <br>
 Make sure 'model.onnx' is located on the same directory with the script.
